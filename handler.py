@@ -1,3 +1,6 @@
+import sys
+print("✅ Handler started successfully", file=sys.stderr)
+sys.stderr.flush()
 import runpod
 from modules.image_gen import generate_realistic_image
 from modules.video_gen import create_video
